@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.6;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding: 9px 10px;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links {
+    display: inline-flex;
+    flex-basis: 360px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+li {
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.background {
+    background-image: url("../resources/img/img-mission-background.jpeg");
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    opacity: 0.6;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.mission-container {
+    background-color: black;
+    width: 100%;
+}
+
+#month-tea {
+    margin: 50px 0;
+    width: 1200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.month-heading {
+    display: block;
+    opacity: 0.6;
+}
+
+
+.tea-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tea-item {
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.tea-item h4 {
+    opacity: 0.6;
+}
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    background-image: url("../resources/img/img-locations-background.jpeg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations > :first-child {
+    margin-bottom: 15px;
+}
+
+.location-item {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    opacity: 0.6;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+    opacity: 0.6;
+}
+
+
+
+
